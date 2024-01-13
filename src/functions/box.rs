@@ -83,7 +83,7 @@ extern "C" {
     /// The [`mvwhline`] function draws a horizontal (left to right) line using `ch` starting at the
     /// current cursor position in the window. The current cursor position is not changed. The line
     /// is at most `n` characters long, or as many as fit into the window.
-    pub fn mvwhline(y: c_int, x: c_int, win: *mut Window, ch: CHType, c: c_int) -> c_int;
+    pub fn mvwhline(win: *mut Window, y: c_int, x: c_int, ch: CHType, c: c_int) -> c_int;
 
     /// The [`mvvline`] function draws a vertical (top to bottom) line using `ch` starting at the
     /// current cursor position in the window. The current cursor position is not changed. The line
@@ -93,5 +93,5 @@ extern "C" {
     /// The [`mvwvline`] function draws a vertical (top to bottom) line using `ch` starting at the
     /// current cursor position in the window. The current cursor position is not changed. The line
     /// is at most `n` characters long, or as many as fit into the window.
-    pub fn mvwvline(y: c_int, x: c_int, win: *mut Window, ch: CHType, c: c_int) -> c_int;
+    pub fn mvwvline(win: *mut Window, y: c_int, x: c_int, ch: CHType, c: c_int) -> c_int;
 }
