@@ -13,7 +13,7 @@ extern "C" {
     pub fn waddstr(win: *mut Window, str: *const c_char) -> c_int;
 
     /// Add a string of characters to a curses window and advance cursor
-    pub fn waddnstr(str: *mut Window, n: c_int) -> c_int;
+    pub fn waddnstr(win: *mut Window, str: *mut Window, n: c_int) -> c_int;
 
     /// Add a string of characters to a curses window and advance cursor
     pub fn mvaddstr(y: c_int, x: c_int, str: *const c_char) -> c_int;
