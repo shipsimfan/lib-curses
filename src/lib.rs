@@ -11,5 +11,5 @@ mod functions;
 mod types;
 
 pub use constants::*;
-pub use functions::{addnstr, endwin, initscr, refresh};
+pub use functions::{addnstr, endwin, getch, initscr, refresh};
 pub use types::Window;
