@@ -9,5 +9,5 @@
 mod functions;
 mod types;
 
-pub use functions::initscr;
+pub use functions::{endwin, initscr};
 pub use types::Window;
