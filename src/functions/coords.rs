@@ -1,6 +1,5 @@
-use std::ffi::c_int;
-
 use crate::Window;
+use std::ffi::c_int;
 
 #[link(name = "curses")]
 extern "C" {
