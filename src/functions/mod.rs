@@ -9,6 +9,7 @@ mod getch;
 mod initscr;
 mod input_options;
 mod refresh;
+mod touch;
 mod win;
 
 pub use addstr::*;
@@ -22,4 +23,5 @@ pub use initscr::*;
 pub use input_options::*;
 pub use r#box::*;
 pub use refresh::*;
+pub use touch::*;
 pub use win::*;
