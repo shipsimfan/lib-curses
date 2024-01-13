@@ -10,6 +10,6 @@ macro_rules! curses_bits {
 #[macro_export]
 macro_rules! color_pair {
     ($n: expr) => {
-        $crate::curses_bits($n, 0) & $crate::A_COLOR
+        $crate::curses_bits!($n, 0) & $crate::A_COLOR
     };
 }
