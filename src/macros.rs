@@ -2,7 +2,7 @@
 #[macro_export]
 macro_rules! curses_bits {
     ($mask: expr, $shift: expr) => {
-        $mask << ($shift + CURSES_ATTR_SHIFT)
+        $mask << ($shift + $crate::CURSES_ATTR_SHIFT)
     };
 }
 
