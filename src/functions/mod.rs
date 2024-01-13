@@ -1,6 +1,7 @@
 mod addstr;
 mod attr;
 mod bkgd;
+mod r#box;
 mod color;
 mod coords;
 mod curs_set;
@@ -19,5 +20,6 @@ pub use curs_set::*;
 pub use getch::*;
 pub use initscr::*;
 pub use input_options::*;
+pub use r#box::*;
 pub use refresh::*;
 pub use win::*;
