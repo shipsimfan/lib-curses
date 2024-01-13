@@ -1,4 +1,5 @@
 mod addstr;
+mod attr;
 mod bkgd;
 mod coords;
 mod curs_set;
@@ -8,6 +9,7 @@ mod input_options;
 mod refresh;
 
 pub use addstr::*;
+pub use attr::*;
 pub use bkgd::*;
 pub use coords::*;
 pub use curs_set::*;
