@@ -25,5 +25,5 @@ extern "C" {
     pub fn mvwaddstr(y: c_int, x: c_int, win: *mut Window, str: *const c_char) -> c_int;
 
     /// Add a string of characters to a curses window and advance cursor
-    pub fn mvwaddnstr(y: c_int, x: c_int, str: *mut Window, n: c_int) -> c_int;
+    pub fn mvwaddnstr(y: c_int, x: c_int, win: *mut Window, str: *const c_char, n: c_int) -> c_int;
 }
