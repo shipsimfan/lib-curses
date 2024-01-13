@@ -1,4 +1,6 @@
 //! Raw curses bindings
+//!
+//! See the curses man pages for more information
 
 #![deny(missing_docs)]
 #![deny(rustdoc::private_intra_doc_links)]
@@ -11,5 +13,5 @@ mod functions;
 mod types;
 
 pub use constants::*;
-pub use functions::{addnstr, endwin, getch, initscr, refresh};
-pub use types::Window;
+pub use functions::*;
+pub use types::*;
