@@ -8,6 +8,7 @@ mod getch;
 mod initscr;
 mod input_options;
 mod refresh;
+mod win;
 
 pub use addstr::*;
 pub use attr::*;
@@ -19,3 +20,4 @@ pub use getch::*;
 pub use initscr::*;
 pub use input_options::*;
 pub use refresh::*;
+pub use win::*;
