@@ -1,6 +1,7 @@
 mod addstr;
 mod attr;
 mod bkgd;
+mod color;
 mod coords;
 mod curs_set;
 mod getch;
@@ -11,6 +12,7 @@ mod refresh;
 pub use addstr::*;
 pub use attr::*;
 pub use bkgd::*;
+pub use color::*;
 pub use coords::*;
 pub use curs_set::*;
 pub use getch::*;
