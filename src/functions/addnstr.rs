@@ -15,5 +15,5 @@ extern "C" {
     ///
     /// # Return Value
     /// Returns the integer [`ERR`] upon failure and [`OK`] on success
-    pub fn addnstr(str: *const c_char, n: c_int);
+    pub fn addnstr(str: *const c_char, n: c_int) -> c_int;
 }
