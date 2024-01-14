@@ -1,3 +1,4 @@
+mod addch;
 mod addstr;
 mod attr;
 mod bkgd;
@@ -13,6 +14,7 @@ mod refresh;
 mod touch;
 mod win;
 
+pub use addch::*;
 pub use addstr::*;
 pub use attr::*;
 pub use bkgd::*;
